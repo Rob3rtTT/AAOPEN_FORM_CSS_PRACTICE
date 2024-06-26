@@ -1,0 +1,76 @@
+fieldset {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows:auto;
+    justify-items: center;
+}
+
+legend {
+    grid-column: 2;
+    border: 3px solid black;
+    font-size: 24px;
+    margin-left: 5%;
+}
+.firstnameform,
+.lastnameform,
+.emailform {
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roleform {
+    grid-column: 2;
+    grid-row: 4;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100%;
+}
+
+.dateform {
+    grid-column: 4;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 100%
+}
+
+.languageform {
+    grid-row: 6;
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radiogroup {
+    display: flex;
+    flex-direction: row;
+}
+
+.commentform {
+    grid-column: 3;
+    grid-row: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.checkboxform {
+    grid-column: 3;
+    grid-row: 8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.submitform {
+    grid-column: 3;
+    grid-row: 9;
+}

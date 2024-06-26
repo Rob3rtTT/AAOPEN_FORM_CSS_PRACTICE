@@ -8,22 +8,22 @@
             <fieldset>
             <legend>Add user</legend>
         
-            <div>
+            <div class="firstnameform">
                 <label for="firstName">First name</label>
                 <input type="text" id="firstName" name="first_name">
             </div>
         
-            <div>
+            <div class="lastnameform">
                 <label for="lastName">Last name</label>
                 <input type="text" id="lastName" name="last_name">
             </div>
         
-            <div>
+            <div class="emailform">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email_address">
             </div>
         
-            <div>
+            <div class="roleform">
                 <label for="role">Status</label>
                 <select id="role" name="user_role_name">
                 <option value="student">Student</option>
@@ -32,34 +32,36 @@
                 </select>
             </div>
             
-            <div>
+            <div class="languageform">
                 <p>Choose your favorite Web language:</p>
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">HTML</label><br>
-                <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">CSS</label><br>
-                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">JavaScript</label>
+                <div class="radiogroup">
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">HTML</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">CSS</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                </div>
             </div>
 
-            <div>
+            <div class="commentform">
                 <label for="comments">Comments</label>
                 <textarea id="comments" name="comments"></textarea>
             </div>
 
-            <div>
+            <div class="dateform">
                 <label for="date">Date</label>
                 <input type="date" id="date" name="date">
             </div>
 
-            <div>
+            <div class="checkboxform">
                 <input type="checkbox" id="signup" name="signup" value="Signup">
                 <label for="signup">Sign up for news letter</label><br>
                 <input type="checkbox" id="terms" name="terms" value="Terms">
                 <label for="terms"> Agree to terms and conditions</label>
             </div>
         
-            <div>
+            <div class="submitform">
                 <button type="submit">Submit</button>
             </div>
         
